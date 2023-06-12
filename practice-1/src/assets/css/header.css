@@ -1,0 +1,75 @@
+header {
+  position: fixed;
+  left:0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: var(--font-size-normal);
+  font-weight: 900;
+  > p {
+    margin-left: 15px;
+  }
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-item{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.header__nav-item:hover{
+    scale: 1.2;
+    transition: var(--transition-slow);
+}
+.header__nav-link{
+    color: var(--sub-color);
+    font-size: var(--font-size-link);
+    text-decoration: none;
+}
+.header__nav-link:hover{
+    text-decoration: underline;
+}
+.header__auth-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__button{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 15px;
+    transition: var(--transition-fast);
+    font-size: var(--font-size-small);
+}
+.header__button:hover{
+    scale: 1.1;
+}
+.header__button--login {
+    background-color: var(--background-color);
+    color: var(--font-color);
+  }
+  
+  /* Styles for the header signup button element */
+  .header__button--signup {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+  }
+/* Styles for the header login button element */
