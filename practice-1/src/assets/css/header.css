@@ -1,0 +1,37 @@
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  display: flex;
+  cursor: pointer;
+}
+
+.header__nav{
+    display: flex;
+}
+
+.header__nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-item{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.header__nav-link{
+    font-size: var(--font-size-link);
+    color: var(--sub-color);
+}
+.header__auth-buttons{
+    display: flex;
+}

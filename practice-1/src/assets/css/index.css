@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+:root {
+  --background-color: #e8e8e8;
+  --primary-color: #5d50c6;
+  --secondary-color: #f85e9f;
+  --thirdly-color: #ff5722;
+  --fourthly-color: #facd49;
+  --font-color: #19182580;
+  --font-size-link: 14px;
+  --font-size-small: 18px;
+  --font-size-normal: 23px;
+  --font-size-big: 35px;
+  --font-size-bigger: 44px;
+  --sub-color: #19182580 50% transparent;
+  --text-highlight-color: ##f85e9f;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  font-family: 'Circular Std Medium', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.3;
+  padding: 20px;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: 'Circular Std Medium', Arial, sans-serif;
+}
