@@ -12,14 +12,7 @@ header {
 
 .header__logo {
   display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
-  font-size: var(--font-size-normal);
-  font-weight: 900;
-  > p {
-    margin-left: 15px;
-  }
 }
 
 .header__nav{
