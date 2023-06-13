@@ -7,32 +7,34 @@
     <link rel="stylesheet" href="../src/assets/css/footer.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="header__logo">
         <img src="../src/assets/images/logo.svg" alt="Logo" />
         <p>Travlog</p>
       </div>
-      <ul class="header__nav">
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Home</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Discover</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Sepcial Deals</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Contact</a>
-        </li>
-      </ul>
+      <nav class="header__nav">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item">
+            <a class="navbar__menu__link" href="#">Home</a>
+          </li>
+          <li class="navbar__menu__item">
+            <a class="navbar__menu__link" href="javascript:void(0)">Discover</a>
+          </li>
+          <li class="navbar__menu__item">
+            <a class="navbar__menu__link" href="javascript:void(0)">Sepcial Deals</a>
+          </li>
+          <li class="navbar__menu__item">
+            <a class="navbar__menu__link" href="javascript:void(0)">Contact</a>
+          </li>
+        </ul>
+      </nav>
       <div class="header__auth-buttons">
-        <a href="#" class="header__button header__button--login">Login</a>
-        <a href="#" class="header__button header__button--signup">Sign Up</a>
+        <a href="javascript:void(0)" class="header__button header__button--login">Login</a>
+        <a href="javascript:void(0)" class="header__button header__button--signup">Sign Up</a>
       </div>
     </header>
     <main></main>
-    <footer>
+    <footer class="footer">
       <div class="footer__content">
         <div class="footer__logo">
           <img src="../src/assets/images/logo.svg" alt="Logo" />
@@ -43,41 +45,69 @@
           has roots in a piece of classical Latin literature from 45 BC.
         </div>
         <div class="footer__socials">
-          <a class="footer__social-icon" href="#">
-            <img
-              style="height: 16px; width: 19px; background-color: #fff"
-              src="../src/assets/images/fb.svg"
-              alt="socials"
-            />
-          </a>
-          <a class="footer__social-icon" href="#">
-            <img src="../src/assets/images/twitter.svg" alt="socials" />
-          </a>
-          <a class="footer__social-icon" href="#">
-            <img src="../src/assets/images/insta.svg" alt="socials" />
-          </a>
+          <ul class="footer__socials__list">
+            <li>
+              <a class="footer__social-icon" href="https://www.facebook.com">
+                <img
+                  class="icon--fb"
+                  src="../src/assets/images/fb.svg"
+                  alt="socials"
+                />
+              </a>
+            </li>
+            <li>
+              <a class="footer__social-icon" href="https://twitter.com">
+                <img src="../src/assets/images/twitter.svg" alt="socials" />
+              </a>
+            </li>
+            <li>
+              <a class="footer__social-icon" href="https://www.instagram.com">
+                <img src="../src/assets/images/insta.svg" alt="socials" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="footer__info">
-        <div class="footer__info-item">
+        <nav class="footer__info__item">
           Company
-          <a href="#" class="footer__info-link">About</a>
-          <a href="#" class="footer__info-link">Career</a>
-          <a href="#" class="footer__info-link">Mobile</a>
-        </div>
-        <div class="footer__info-item">
+          <ul class="footer__info__list">
+            <li>
+              <a class="footer__link" href="javascript:void(0)">About</a>
+            </li>
+            <li>
+              <a class="footer__link" href="javascript:void(0)">Career</a>
+            </li>
+            <li>
+              <a class="footer__link" href="javascript:void(0)">Mobile</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__info__item">
           Contact
-          <a href="#" class="footer__info-link">Why Travlog?</a>
-          <a href="#" class="footer__info-link">Partner with us</a>
-          <a href="#" class="footer__info-link">FAQ's</a>
-          <a href="#" class="footer__info-link">Blog</a>
-        </div>
-        <div class="footer__info-item">
+          <ul class="footer__info__list">
+            <li>
+              <a class="footer__link" href="javascript:void(0)">Why Travlog?</a>
+            </li>
+            <li>
+              <a class="footer__link" href="javascript:void(0)">Partner with us</a>
+            </li>
+            <li>
+              <a class="footer__link" href="javascript:void(0)">FAQ's</a>
+            </li>
+            <li>
+              <a class="footer__link" href="javascript:void(0)">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__info__item">
           Meet Us
-          <a href="#" class="footer__info-link">+00 92 1234 56789</a>
-          <a href="#" class="footer__info-link">info@travlog.com</a>
-          <a href="#" class="footer__info-link">205. R Street, New York</a>
-          <a href="#" class="footer__info-link">BD2item</a>
+          <ul class="footer__info__list">
+            <li class="footer__info__text">+00 92 1234 56789</li>
+            <li class="footer__info__text">info@travlog.com</li>
+            <li class="footer__info__text">205. R Street, New York</li>
+            <li class="footer__info__text">BD2item</li>
+          </ul>
         </div>
       </div>
     </footer>
