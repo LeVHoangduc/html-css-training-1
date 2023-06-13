@@ -20,7 +20,7 @@ footer {
   width: 500px;
   gap: 15px;
 }
-.footer__content-logo {
+.footer__logo {
   display: flex;
   cursor: pointer;
   gap: 10px;
@@ -28,18 +28,19 @@ footer {
     font-weight: 900;
   }
 }
-.footer__content-text {
+.footer__text {
   display: flex;
   font-size: var(--font-size-link);
   color: var(--sub-color);
+  font-weight: 450;
 }
-.footer__content-socials {
+.footer__socials {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
 }
-.footer__content-icon {
+.footer__social-icon {
   display: inline-block;
   padding: 5px 10px;
   border-radius: 20px;
