@@ -20,6 +20,9 @@ html {
   --font-size-normal: 24px;
   --font-size-big: 35px;
   --font-size-bigger: 44px;
+  --font-weight-light: 450;
+  --font-weight-medium: 700;
+  --font-weight-bold: 900;
   --transition-fast: 0.25s ease;
   --transition-slow: 0.5s ease;
 }
@@ -27,7 +30,7 @@ body {
   background-color: var(--background-color);
   font-family: 'Circular Std Medium', Arial, sans-serif;
   font-size: var(--font-size-normal);
-  font-weight: 700;
+  font-weight: var(--font-weight-medium);
   line-height: 25px;
   width: 100%;
   padding: 20px;

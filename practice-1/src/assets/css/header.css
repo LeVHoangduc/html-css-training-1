@@ -1,4 +1,4 @@
-header {
+.header {
   position: fixed;
   left: 0;
   top: 0;
@@ -15,11 +15,15 @@ header {
   cursor: pointer;
   gap: 15px;
   > p {
-    font-weight: 900;
+    font-weight: var(--font-weight-bold);
   }
 }
 
 .header__nav {
+  display: flex;
+}
+
+.navbar__menu{
   display: flex;
   list-style-type: none;
   margin: 0 40px;
@@ -27,22 +31,25 @@ header {
   gap: 10px;
 }
 
-.header__nav-item {
+.navbar__menu__item {
   display: flex;
   flex: none;
   align-items: center;
   margin-right: 30px;
 }
-.header__nav-item:hover {
+
+.navbar__menu__item:hover {
   scale: 1.2;
   transition: var(--transition-slow);
 }
-.header__nav-link {
+
+.navbar__menu__link {
   color: var(--sub-color);
   font-size: var(--font-size-link);
   text-decoration: none;
 }
-.header__nav-link:hover {
+
+.navbar__menu__link:hover {
   text-decoration: underline;
 }
 
@@ -52,6 +59,7 @@ header {
   align-items: center;
   gap: 15px;
 }
+
 .header__button {
   display: inline-block;
   flex: none;
@@ -61,19 +69,19 @@ header {
   font-size: var(--font-size-link);
   transition: var(--transition-fast);
 }
+
 .header__button:hover {
   scale: 1.1;
 }
+
 .header__button--login {
   order: 0;
   background-color: var(--background-color);
   color: var(--font-color);
 }
 
-/* Styles for the header signup button element */
 .header__button--signup {
   order: 1;
   background-color: var(--primary-color);
   color: var(--background-color);
 }
-/* Styles for the header login button element */
