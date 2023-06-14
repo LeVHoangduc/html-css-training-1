@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
   width: 100%;
   margin: 0;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 .header__logo {
@@ -28,7 +28,7 @@
   list-style-type: none;
   margin: 0 40px;
   padding: 0;
-  gap: 10px;
+  column-gap: 35px;
 }
 
 .navbar__menu__item {
@@ -45,7 +45,7 @@
 
 .navbar__menu__link {
   color: var(--sub-color);
-  font-size: var(--font-size-link);
+  font-size: var(--font-size-smaller);
   text-decoration: none;
 }
 
@@ -66,7 +66,7 @@
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 20px;
-  font-size: var(--font-size-link);
+  font-size: var(--font-size-smaller);
   transition: var(--transition-fast);
 }
 

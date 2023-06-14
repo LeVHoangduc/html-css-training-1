@@ -3,8 +3,10 @@
   <head>
     <title>Travlog</title>
     <link rel="stylesheet" href="../src/assets/css/index.css" />
+    <link rel="stylesheet" href="../src/assets/css/global.css" />
     <link rel="stylesheet" href="../src/assets/css/header.css" />
     <link rel="stylesheet" href="../src/assets/css/footer.css" />
+    <link rel="stylesheet" href="../src/assets/css/get-start_section.css" />
   </head>
   <body>
     <header class="header">
@@ -21,7 +23,9 @@
             <a class="navbar__menu__link" href="javascript:void(0)">Discover</a>
           </li>
           <li class="navbar__menu__item">
-            <a class="navbar__menu__link" href="javascript:void(0)">Sepcial Deals</a>
+            <a class="navbar__menu__link" href="javascript:void(0)"
+              >Sepcial Deals</a
+            >
           </li>
           <li class="navbar__menu__item">
             <a class="navbar__menu__link" href="javascript:void(0)">Contact</a>
@@ -29,11 +33,67 @@
         </ul>
       </nav>
       <div class="header__auth-buttons">
-        <a href="javascript:void(0)" class="header__button header__button--login">Login</a>
-        <a href="javascript:void(0)" class="header__button header__button--signup">Sign Up</a>
+        <a
+          href="javascript:void(0)"
+          class="header__button header__button--login"
+          >Login</a
+        >
+        <a
+          href="javascript:void(0)"
+          class="header__button header__button--signup"
+          >Sign Up</a
+        >
       </div>
     </header>
-    <main></main>
+    <div id="content">
+      <section class="content-section get-start-section">
+        <div class="get-start__image-container">
+          <img
+            class="get-start__image--earth"
+            src="assets/images/earth.png"
+            alt="earth"
+          />
+          <img
+            class="get-start__image--destinations"
+            src="assets/images/Top destination.png"
+            alt="Top destination"
+          />
+          <a href="javasrcipt:void(0)" id="icon--send" class="get-start__image__btn btn btn--icon btn--pink">
+            <img src="assets/images/paper-plane.svg" alt="send"/>
+          </a>
+          <a href="javasrcipt:void(0)" id="icon--add" class="get-start__image__btn btn btn--icon btn--orange">
+            <img src="assets/images/user-plus.svg" alt="user add"/>
+          </a>
+          <a href="javasrcipt:void(0)" id="icon--location" class="get-start__image__btn btn">
+            <img src="assets/images/location.svg" alt="location">
+            <span class="text--smaller">Top Places</span>
+          </a>
+        </div>
+        <div class="get-start__text-container">
+          <div class="btn">
+            <span class="text--highlight text--small">Explore the wolrd!</span>
+            <img src="assets/images/bag.svg" alt="bag image" />
+          </div>
+          <h1 class="get-start__title">
+            Travel <em class="text--highlight"> top destination </em> of the
+            world
+          </h1>
+          <p class="text--sub text--smaller get-start__text">
+            We always make our customer happy by providing as many choices as
+            possible
+          </p>
+          <div class="btn-group">
+            <div class="btn btn--primary">
+              <span class="text--smaller">Get Started</span>
+            </div>
+            <div class="btn btn--secondary">
+              <img src="assets/images/watch.svg" alt="watch" />
+              <span class="text--smaller">Watch demo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <footer class="footer">
       <div class="footer__content">
         <div class="footer__logo">
@@ -90,7 +150,9 @@
               <a class="footer__link" href="javascript:void(0)">Why Travlog?</a>
             </li>
             <li>
-              <a class="footer__link" href="javascript:void(0)">Partner with us</a>
+              <a class="footer__link" href="javascript:void(0)"
+                >Partner with us</a
+              >
             </li>
             <li>
               <a class="footer__link" href="javascript:void(0)">FAQ's</a>
