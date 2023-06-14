@@ -1,42 +1,5 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-:root {
-  --background-color: #e8e8e8;
-  --primary-color: #5d50c6;
-  --secondary-color: #f85e9f;
-  --thirdly-color: #ff5722;
-  --fourthly-color: #facd49;
-  --font-color: #19182580 50% transparent;
-  --sub-color: #19182580 ;
-  --highlight-color: ##f85e9f;
-  --font-size-link: 15px;
-  --font-size-small: 18px;
-  --font-size-normal: 24px;
-  --font-size-big: 35px;
-  --font-size-bigger: 44px;
-  --font-weight-light: 450;
-  --font-weight-medium: 700;
-  --font-weight-bold: 900;
-  --transition-fast: 0.25s ease;
-  --transition-slow: 0.5s ease;
-}
-body {
-  background-color: var(--background-color);
-  font-family: 'Circular Std Medium', Arial, sans-serif;
-  font-size: var(--font-size-normal);
-  font-weight: var(--font-weight-medium);
-  line-height: 25px;
-  width: 100%;
-  padding: 20px;
-  margin: 0;
-  transition: 0.25s ease;
-}
-h1, h2, h3 {
-  font-family: 'Circular Std Medium', Arial, sans-serif;
-}
+@import url(./reset.css);
+@import url(./global.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./get-start.css);
