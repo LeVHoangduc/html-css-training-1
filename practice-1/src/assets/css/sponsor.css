@@ -1,0 +1,14 @@
+.sponsor-section {
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: 830px;
+}
+
+.sponsor__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+    row-gap: 20px;
+}
