@@ -51,6 +51,10 @@ h3 {
   font-family: "Circular Std Medium", Arial, sans-serif;
 }
 
+img {
+  -webkit-user-drag: none;
+}
+
 .content {
   position: relative;
   display: flex;
@@ -135,24 +139,24 @@ h3 {
   column-gap: 15px;
 }
 
-.btn--primary {
+.bg--primary {
   background-color: var(--primary-color);
   color: var(--background-color);
 }
 
-.btn--secondary {
+.bg--secondary {
   background-color: var(--background-color);
   color: var(--primary-color);
 }
 
-.btn--pink {
+.bg--pink {
   background-color: var(--secondary-color);
 }
 
-.btn--orange {
+.bg--orange {
   background-color: var(--thirdly-color);
 }
 
-.btn--yellow {
+.bg--yellow {
   background-color: var(--fourthly-color);
 }

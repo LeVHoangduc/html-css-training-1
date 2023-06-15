@@ -54,7 +54,7 @@
   background-color: var(--background-color);
   border-radius: 32px;
   transition: var(--transition-fast);
-  cursor: pointer;
+  cursor: default;
 
   > h5 {
     text-align: center;
