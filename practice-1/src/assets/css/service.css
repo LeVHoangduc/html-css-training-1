@@ -36,7 +36,7 @@
   padding: 50px 50px;
 }
 
-.service__list::-webkit-scrollbar{
+.service__list::-webkit-scrollbar {
   display: none;
 }
 
