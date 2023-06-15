@@ -77,6 +77,10 @@ h3 {
   color: var(--secondary-color);
 }
 
+.text--orange {
+  color: var(--thirdly-color);
+}
+
 .text--sub {
   color: var(--sub-color);
 }
