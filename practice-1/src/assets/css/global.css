@@ -60,6 +60,7 @@ h3 {
   margin: 0 auto;
   height: auto;
   padding: 64px 0px;
+  max-width: var(--width-max);
   gap: 150px;
 }
 
@@ -91,6 +92,14 @@ h3 {
 
 .text--tiny {
   font-size: var(--font-size-tiny);
+}
+
+.text--big {
+  font-size: var(--font-size-big);
+}
+
+.text--large {
+  font-size: var(--font-size-large);
 }
 
 .btn {
@@ -142,4 +151,8 @@ h3 {
 
 .btn--orange {
   background-color: var(--thirdly-color);
+}
+
+.btn--yellow {
+  background-color: var(--fourthly-color);
 }
