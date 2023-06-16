@@ -3,6 +3,8 @@
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 0;
+  gap: 200px;
 }
 
 .service-section__text-container {
@@ -24,7 +26,7 @@
 .service-container {
   align-items: center;
   gap: 20px;
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 .service__list {
