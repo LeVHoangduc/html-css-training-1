@@ -1,14 +1,16 @@
 .subscribe {
   padding: 0 100px;
+  margin-bottom: 100px;
 }
 
 .subscribe .container {
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #facd4914;
   padding: 128px 64px;
-  gap: 50px;
+  gap: 70px;
 }
 
 .subscribe .section__title {
@@ -29,20 +31,31 @@
 }
 
 .subscribe .input {
-    width: 500px;
-    height: 80px;
-    border: 1px solid rgba(25, 24, 37, 0.1);
-    border-radius: 32px;
-    padding: 10px 70px;
+  width: 500px;
+  height: 80px;
+  border: 1px solid rgba(25, 24, 37, 0.1);
+  border-radius: 32px;
+  padding: 10px 70px;
 }
 
-
 .icon--letter {
-    position: absolute;
-    left: 25px;
+  position: absolute;
+  left: 25px;
 }
 
 .btn--subscribe {
-    font-weight: var(--font-weight-bold);
-    padding: 32px 64px;
+  font-weight: var(--font-weight-bold);
+  padding: 32px 64px;
+}
+
+.graphic-element--1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.graphic-element--2 {
+  position: absolute;
+  left: 50px;
+  top: -45px;
 }
