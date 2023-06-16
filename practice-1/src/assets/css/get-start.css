@@ -5,9 +5,7 @@
   row-gap: 70px;
 }
 
-.get-start__image-container {
-  position: relative;
-  display: inline-block;
+.get-start .image-container {
   width: 750px;
   height: 620px;
 }
@@ -49,10 +47,7 @@
   right: 20px;
 }
 
-.get-start__text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.get-start .text-container {
   align-items: flex-start;
   row-gap: 15px;
   width: 412px;

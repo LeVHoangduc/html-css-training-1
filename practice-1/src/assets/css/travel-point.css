@@ -6,8 +6,7 @@
   margin-left: 0;
 }
 
-.travel-point-container {
-  display: flex;
+.travel-point .container {
   flex-direction: column;
   align-items: center;
   max-width: 600px;
@@ -15,11 +14,6 @@
   padding: 0 30px;
 }
 
-.travel-point__text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
 
 .travel-point__title {
   display: flex;

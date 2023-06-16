@@ -77,6 +77,23 @@ img {
   margin: 0 auto;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  gap: 30px;
+}
+
+.image-container {
+  position: relative;
+}
+
 .section__title {
   gap: 30px;
   line-height: 120%;

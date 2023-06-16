@@ -5,9 +5,10 @@
   padding: 0 20px;
 }
 
-.destination__text-container {
-  display: flex;
-  flex-wrap: wrap;
+
+.destination .text-container {
+  width: auto;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -22,10 +23,6 @@
   border-radius: 30px;
 }
 
-.destination-container {
-  display: flex;
-  justify-content: center;
-}
 
 .destination__list {
   display: flex;
@@ -60,7 +57,7 @@
   scale: 1.1;
 }
 
-.item__text-container {
+.destination__list__item .text-container {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
