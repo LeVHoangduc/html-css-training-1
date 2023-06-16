@@ -49,10 +49,7 @@
   right: 20px;
 }
 
-.get-start__text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.text-container--get-start {
   align-items: flex-start;
   row-gap: 15px;
   width: 412px;

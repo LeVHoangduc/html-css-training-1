@@ -5,9 +5,8 @@
   padding: 0 20px;
 }
 
-.destination__text-container {
-  display: flex;
-  flex-wrap: wrap;
+
+.text-container--destination {
   justify-content: space-between;
 }
 
@@ -22,10 +21,6 @@
   border-radius: 30px;
 }
 
-.destination-container {
-  display: flex;
-  justify-content: center;
-}
 
 .destination__list {
   display: flex;
