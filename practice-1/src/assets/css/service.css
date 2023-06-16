@@ -1,4 +1,4 @@
-.service-section {
+.service {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-end;
@@ -7,20 +7,10 @@
   gap: 200px;
 }
 
-.service-section__text-container {
+.service__title {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   width: 450px;
-}
-
-.service-section__title {
-  line-height: 120%;
-  letter-spacing: 0.2em;
-}
-
-.service-section__text {
-  line-height: 120%;
 }
 
 .service-container {

@@ -67,18 +67,17 @@ img {
   padding: 64px 0px;
   gap: 150px;
   overflow: visible;
-  max-width:100vw;
+  max-width: 100vw;
 }
 
-.content-section {
-  
+.section {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.section-title {
+.section__title {
   gap: 30px;
   line-height: 120%;
 
@@ -91,9 +90,17 @@ img {
   }
 }
 
+.text {
+  font-family: "Circular Std Bold", Arial, sans-serif;
+}
+
 .text--normal {
   color: var(--font-color);
   font-size: var(--font-size-normal);
+}
+
+.text--huge {
+  font-size: var(--font-size-huge);
 }
 
 .text--highlight {

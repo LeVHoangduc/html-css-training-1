@@ -1,4 +1,4 @@
-.travel-point-section {
+.travel-point {
   position: relative;
   justify-content: flex-start;
   align-items: flex-start;
@@ -27,19 +27,6 @@
   align-items: flex-start;
   justify-content: center;
   gap: 20px;
-  line-height: 120%;
-
-  > h2 {
-    letter-spacing: 0.2em;
-  }
-
-  > h3 {
-    line-height: 120%;
-  }
-}
-
-.travel-point__text {
-  height: auto;
 }
 
 .travel-point__list {
@@ -48,7 +35,7 @@
   flex-wrap: wrap;
 }
 
-.travel-point__item {
+.travel-point__list__item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,26 +48,22 @@
   transition: var(--transition-fast);
   cursor: default;
   width: 220px;
-
-  > p {
-    display: flex;
-  }
 }
 
-.travel-point__item:hover {
+.travel-point__list__item:hover {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.travel-point__image__btn {
+.travel-point__btn {
   position: absolute;
   top: 35%;
   right: 10px;
 }
 
-.travel-point__image__btn:hover {
+.travel-point__btn:hover {
   cursor: pointer;
   scale: 1.1;
 }
 
-.icon--coupon {
+.icon-coupon {
   width: 50px;
 }

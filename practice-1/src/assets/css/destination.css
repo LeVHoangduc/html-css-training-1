@@ -1,26 +1,20 @@
-.destination-section {
+.destination {
   flex-direction: column;
   gap: 50px;
   justify-content: center;
   padding: 0 20px;
 }
 
-.destination-section__text-container {
+.destination__text-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.destination-section__title {
+.destination__title {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  line-height: 120%;
-
-  > h2 {
-    letter-spacing: 0.2em;
-  }
+  align-items: flex-start;
 }
 
 .destination__btn {
