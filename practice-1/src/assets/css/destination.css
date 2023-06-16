@@ -6,7 +6,9 @@
 }
 
 
-.text-container--destination {
+.destination .text-container {
+  width: auto;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -55,7 +57,7 @@
   scale: 1.1;
 }
 
-.item__text-container {
+.destination__list__item .text-container {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;

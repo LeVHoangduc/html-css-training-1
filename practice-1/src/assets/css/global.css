@@ -90,6 +90,10 @@ img {
   gap: 30px;
 }
 
+.image-container {
+  position: relative;
+}
+
 .section__title {
   gap: 30px;
   line-height: 120%;
