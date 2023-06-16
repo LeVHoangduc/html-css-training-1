@@ -33,13 +33,6 @@
   }
 }
 
-.footer__text {
-  display: flex;
-  font-size: var(--font-size-tiny);
-  color: var(--sub-color);
-  font-weight: var(--font-weight-light);
-}
-
 .footer__socials {
   display: flex;
   justify-content: flex-start;
