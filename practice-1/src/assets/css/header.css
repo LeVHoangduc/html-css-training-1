@@ -16,9 +16,10 @@
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
-  > p {
-    font-weight: var(--font-weight-bold);
-  }
+}
+
+.header__logo > p {
+  font-weight: var(--font-weight-bold);
 }
 
 .header__nav {

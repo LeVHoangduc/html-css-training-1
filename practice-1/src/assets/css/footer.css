@@ -28,9 +28,10 @@
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  > p {
-    font-weight: var(--font-weight-bold);
-  }
+}
+
+.footer__logo > p {
+  font-weight: var(--font-weight-bold);
 }
 
 .footer__socials {

@@ -97,14 +97,14 @@ img {
 .section__title {
   gap: 30px;
   line-height: 120%;
+}
 
-  > h2 {
-    letter-spacing: 0.2em;
-  }
+.section__title > h2 {
+  letter-spacing: 0.2em;
+}
 
-  > h3 {
-    line-height: 120%;
-  }
+.section__title > h3 {
+  line-height: 120%;
 }
 
 .text {
