@@ -1,0 +1,24 @@
+{
+  "name": "practice-one",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liemgumball/html-css-training.git"
+  },
+  "author": "Liem Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liemgumball/html-css-training/issues"
+  },
+  "homepage": "https://github.com/liemgumball/html-css-training#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
+}

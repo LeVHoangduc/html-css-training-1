@@ -47,15 +47,15 @@
   border-radius: 32px;
   transition: var(--transition-fast);
   cursor: default;
+}
 
-  > h5 {
-    text-align: center;
-  }
+.service__list__item > h5 {
+  text-align: center;
+}
 
-  > p {
-    text-align: center;
-    font-weight: var(--font-weight-light);
-  }
+.service__list__item > P {
+  text-align: center;
+  font-weight: var(--font-weight-light);
 }
 
 .service__list__item:hover {
