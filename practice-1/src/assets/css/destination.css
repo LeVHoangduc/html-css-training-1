@@ -1,5 +1,5 @@
 /* --------------------
-#DESTINATION
+# DESTINATION
 ----------------------- */
 
 .destination {
@@ -10,7 +10,7 @@
 }
 
 /* --------------------
-#TITLE
+# TITLE
 ----------------------- */
 
 .destination .text-container {
@@ -38,7 +38,7 @@
 }
 
 /* --------------------
-#ITEM
+# ITEM
 ----------------------- */
 
 .destination__list__item {

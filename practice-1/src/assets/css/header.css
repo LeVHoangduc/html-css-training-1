@@ -1,5 +1,5 @@
 /* -----------
-#HEADER  
+# HEADER  
 -------------- */
 .header {
   position: relative;
@@ -14,7 +14,7 @@
 }
 
 /* -----------
-#LOGO 
+# LOGO 
 -------------- */
 
 .header__logo {
@@ -30,7 +30,7 @@
 }
 
 /* -----------
-#NAV
+# NAV
 -------------- */
 
 .header__nav {
@@ -68,7 +68,7 @@
 }
 
 /* ---------------
-#AUTH BUTTONS
+# AUTH BUTTONS
 ------------------ */
 
 .header__auth-buttons {
