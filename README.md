@@ -41,22 +41,17 @@ html-css-training
 - Step 01: Clone repository with HTTPS:
 ~~~
 git clone https://github.com/liemgumball/html-css-training
-- Step 02: Change to branch /practice_one:
+- Step 02: Change to branch feature/practice-one:
 ~~~
-git checkout /practice_one
+git checkout feature/practice-one
 ~~~
-- Step 03: Move to folder which just cloned in your computer:
+- Step 03: Move to practice-1 folder which just cloned in your computer:
 ~~~
-cd html-css-training
-~~~
-- Step 04: Next open folder practice-1
-~~~
-cd practice-1
-~~~
-- Step 05: Open terminal and type:
+cd html-css-training/practice-1
+- Step 04: Install packages:
 ~~~
 npm install
 ~~~
-- Step 06: Finally run with:
+- Step 05: Finally run with:
 ~~~
 npm start
