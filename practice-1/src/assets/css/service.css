@@ -5,10 +5,10 @@
 .service {
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   margin-right: 0;
-  gap: 200px;
+  /* gap: 200px; */
 }
 
 /* ------------
@@ -18,13 +18,12 @@
 .service__title {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 444px;
 }
 
 .service .container {
   align-items: center;
   gap: 20px;
-  max-width: 1000px;
 }
 
 .service__list {
@@ -34,6 +33,7 @@
   height: auto;
   gap: 30px;
   padding: 50px 50px;
+  width: 1050px;
 }
 
 .service__list::-webkit-scrollbar {
@@ -51,7 +51,7 @@
   justify-content: center;
   flex-shrink: 0;
   width: 350px;
-  height: 500px;
+  height: 443px;
   padding: 64px;
   border: 1px solid rgba(25, 24, 37, 0.1);
   gap: 64px;
