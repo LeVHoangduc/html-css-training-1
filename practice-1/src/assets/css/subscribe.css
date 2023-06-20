@@ -1,3 +1,7 @@
+/* ---------------
+# SUBSCRIBE
+------------------ */
+
 .subscribe {
   padding: 0 100px;
   margin-bottom: 100px;
@@ -13,6 +17,10 @@
   gap: 70px;
 }
 
+/* ---------------
+# TITLE
+------------------ */
+
 .subscribe .section__title {
   text-align: center;
 }
@@ -22,6 +30,10 @@
   font-size: 55px;
   line-height: 120%;
 }
+
+/* ---------------
+# FORM
+------------------ */
 
 .subscribe__form {
   position: relative;
