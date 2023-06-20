@@ -1,9 +1,17 @@
+/* --------------
+#GET START 
+----------------- */
+
 .get-start {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
   row-gap: 70px;
 }
+
+/* --------------
+#IMGS
+----------------- */
 
 .get-start .image-container {
   width: 750px;
@@ -27,6 +35,10 @@
   width: 500px;
 }
 
+/* --------------
+#BUTTONS
+----------------- */
+
 .get-start__image__btn {
   position: absolute;
   color: var(--font-color);
@@ -46,6 +58,10 @@
   bottom: 200px;
   right: 20px;
 }
+
+/* --------------
+#TITLE
+----------------- */
 
 .get-start .text-container {
   align-items: flex-start;

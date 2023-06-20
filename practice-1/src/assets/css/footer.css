@@ -1,3 +1,7 @@
+/* -------------------
+#FOOTER  
+---------------------- */
+
 .footer {
   position: relative;
   bottom: 0;
@@ -22,6 +26,10 @@
   gap: 15px;
 }
 
+/* -------------------
+#LOGO
+---------------------- */
+
 .footer__logo {
   display: flex;
   cursor: pointer;
@@ -33,6 +41,10 @@
 .footer__logo > p {
   font-weight: var(--font-weight-bold);
 }
+
+/* -------------------
+#SOCIALS
+---------------------- */
 
 .footer__socials {
   display: flex;
@@ -60,6 +72,10 @@
   width: 19px;
   background-color: #fff;
 }
+
+/* -------------------
+#INFO
+---------------------- */
 
 .footer__info {
   display: flex;

@@ -1,3 +1,7 @@
+/* -------------
+#KEY FEATURE
+---------------- */
+
 .key-feature {
   position: relative;
   flex-wrap: wrap;
@@ -6,6 +10,10 @@
   align-items: flex-start;
   gap: 100px;
 }
+
+/* -------------
+#TITLE
+---------------- */
 
 .key-feature .container {
   flex-direction: column;
@@ -28,6 +36,10 @@
   align-items: stretch;
   gap: 50px;
 }
+
+/* -------------
+#ITEM
+---------------- */
 
 .key-feature__item {
   display: flex;

@@ -1,3 +1,7 @@
+/* ------------
+#SERVICE
+--------------- */
+
 .service {
   flex-direction: row;
   flex-wrap: nowrap;
@@ -6,6 +10,10 @@
   margin-right: 0;
   gap: 200px;
 }
+
+/* ------------
+#TITLE 
+--------------- */
 
 .service__title {
   display: flex;
@@ -31,6 +39,10 @@
 .service__list::-webkit-scrollbar {
   display: none;
 }
+
+/* ------------
+#ITEM
+--------------- */
 
 .service__list__item {
   display: flex;
