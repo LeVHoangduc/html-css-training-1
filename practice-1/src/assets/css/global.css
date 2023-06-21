@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/circular-std-medium-500.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Medium.ttf") format("truetype");
+}
+
 html {
   box-sizing: border-box;
 }
@@ -10,21 +19,21 @@ html {
 
 :root {
   --width-max: 1440px;
-  --background-color: #e8e8e8;
+  --background-color: #fff;
   --primary-color: #5d50c6;
   --secondary-color: #f85e9f;
   --thirdly-color: #ff5722;
   --fourthly-color: #facd49;
-  --font-color: #19182580 50% transparent;
+  --font-color: #191825;
   --sub-color: #19182580;
   --highlight-color: ##f85e9f;
-  --font-size-tiny: 15px;
+  --font-size-tiny: 14px;
   --font-size-small: 18px;
   --font-size-normal: 24px;
   --font-size-big: 35px;
   --font-size-large: 44px;
   --font-size-huge: 69px;
-  --font-weight-light: 450;
+  --font-weight-light: 400;
   --font-weight-medium: 700;
   --font-weight-bold: 900;
   --transition-fast: 0.25s ease;
@@ -33,7 +42,7 @@ html {
 
 body {
   background-color: var(--background-color);
-  font-family: "Circular Std Medium", Arial, sans-serif;
+  font-family: "Circular Std", Arial, sans-serif;
   color: var(--font-color);
   font-size: var(--font-size-normal);
   font-weight: var(--font-weight-medium);
@@ -49,7 +58,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Circular Std Medium", Arial, sans-serif;
+  font-family: "Circular Std", Arial, sans-serif;
 }
 
 img {
@@ -86,20 +95,20 @@ img {
   justify-content: center;
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 500px;
-  gap: 30px;
-}
-
 .image-container {
   position: relative;
 }
 
+/* ------------------
+# TEXT
+------------------ */
+
 .section__title {
   gap: 30px;
+  line-height: 120%;
+}
+
+.section__title > h3 {
   line-height: 120%;
 }
 
@@ -107,18 +116,13 @@ img {
   letter-spacing: 0.2em;
 }
 
-.section__title > h3 {
-  line-height: 120%;
-}
-
 .text {
-  font-family: "Circular Std Bold", Arial, sans-serif;
-}
-
-.text--normal {
+  font-family: "Circular Std", Arial, sans-serif;
   color: var(--font-color);
   font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-medium);
 }
+
 
 .text--huge {
   font-size: var(--font-size-huge);
@@ -133,6 +137,7 @@ img {
 }
 
 .text--sub {
+  font-family: 'Inter';
   color: var(--sub-color);
 }
 
@@ -152,20 +157,28 @@ img {
   font-size: var(--font-size-large);
 }
 
+.text--light {
+  font-weight: var(--font-weight-light);
+}
+
+/* ------------------
+# BUTTON
+------------------ */
+
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 10px;
   padding: 15px 30px;
-  border: none;
   border-radius: 25px;
   background-color: var(--background-color);
   text-decoration: none;
-  font-size: var(--font-size-tiny);
   cursor: pointer;
   transition: var(--transition-fast);
-  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 77px 31px rgba(0, 0, 0, 0.01);
+  border: 1px solid #eeeeee;
 }
 
 .btn:hover {
@@ -185,28 +198,28 @@ img {
   column-gap: 15px;
 }
 
-.bg--primary {
+.btn--primary {
   background-color: var(--primary-color);
   color: var(--background-color);
 }
 
-.bg--secondary {
+.btn--secondary {
   background-color: var(--background-color);
   color: var(--primary-color);
 }
 
-.bg--pink {
+.btn--pink {
   background-color: var(--secondary-color);
 }
 
-.bg--orange {
+.btn--orange {
   background-color: var(--thirdly-color);
 }
 
-.bg--yellow {
+.btn--yellow {
   background-color: var(--fourthly-color);
 }
 
-.bg--sub {
+.btn--sub {
   background-color: var(--sub-color);
 }

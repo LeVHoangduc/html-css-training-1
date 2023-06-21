@@ -1,3 +1,5 @@
+
+# html-css-training
 ## Target: ##
 - Understand HTML/CSS properties and use them correctly
 - Slice from Sketch to HTML/CSS
@@ -37,10 +39,10 @@ html-css-training
 |-- README.md
 ~~~
 ## Getting started:
-~~~
 - Step 01: Clone repository with HTTPS:
 ~~~
 git clone https://github.com/liemgumball/html-css-training
+~~~
 - Step 02: Change to branch feature/practice-one:
 ~~~
 git checkout feature/practice-one
@@ -48,6 +50,7 @@ git checkout feature/practice-one
 - Step 03: Move to practice-1 folder which just cloned in your computer:
 ~~~
 cd html-css-training/practice-1
+~~~
 - Step 04: Install packages:
 ~~~
 npm install
@@ -55,3 +58,4 @@ npm install
 - Step 05: Finally run with:
 ~~~
 npm start
+~~~
