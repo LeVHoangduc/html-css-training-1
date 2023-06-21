@@ -13,7 +13,7 @@
 # TITLE
 ----------------------- */
 
-.destination .text-container {
+.destination .container {
   width: auto;
   flex-direction: row;
   justify-content: space-between;
@@ -26,8 +26,10 @@
 }
 
 .destination__btn {
-  padding: 30px;
-  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #eeeeee;
 }
 
 
@@ -68,7 +70,7 @@
   scale: 1.1;
 }
 
-.destination__list__item .text-container {
+.destination__list__item .container {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;

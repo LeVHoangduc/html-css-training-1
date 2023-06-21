@@ -5,48 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travlog</title>
-    <link rel="icon" href="./assets/images/logo.svg" type="image/png" />
+    <link rel="icon" href="./assets/images/icon/logo.svg" type="image/png" />
     <link rel="stylesheet" href="../src/assets/css/index.css" />
   </head>
   <body>
     <header class="header">
       <div class="header__logo">
-        <img src="../src/assets/images/logo.svg" alt="Logo" />
+        <img src="../src/assets/images/icon/logo.svg" alt="Logo" />
         <p>Travlog</p>
       </div>
-      <nav class="header__nav">
+      <nav class="navbar">
         <ul class="navbar__menu">
           <li class="navbar__menu__item">
-            <a class="navbar__menu__link" href="#">Home</a>
+            <a class="navbar__menu__link text text--tiny text--sub" href="#"
+              >Home</a
+            >
           </li>
           <li class="navbar__menu__item">
-            <a class="navbar__menu__link" href="javascript:void(0)">Discover</a>
+            <a
+              class="navbar__menu__link text text--tiny text--sub"
+              href="javascript:void(0)"
+              >Discover</a
+            >
           </li>
           <li class="navbar__menu__item">
-            <a class="navbar__menu__link" href="javascript:void(0)"
+            <a
+              class="navbar__menu__link text text--tiny text--sub"
+              href="javascript:void(0)"
               >Sepcial Deals</a
             >
           </li>
           <li class="navbar__menu__item">
-            <a class="navbar__menu__link" href="javascript:void(0)">Contact</a>
+            <a
+              class="navbar__menu__link text text--tiny text--sub"
+              href="javascript:void(0)"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
       <div class="header__auth-buttons">
         <a
           href="javascript:void(0)"
-          class="header__button header__button--login"
+          class="btn header__button header__button--login text"
           >Login</a
         >
         <a
           href="javascript:void(0)"
-          class="header__button header__button--signup"
+          class="btn header__button header__button--signup text"
           >Sign Up</a
         >
       </div>
     </header>
 
-    <div class="content">
+    <main class="content">
       <!-- Start Get-start-section -->
       <section class="section get-start">
         <div class="image-container">
@@ -62,13 +74,13 @@
           />
           <a
             href="javasrcipt:void(0)"
-            class="get-start__image__btn btn btn--icon bg--pink icon--send"
+            class="get-start__image__btn btn btn--icon btn--pink icon--send"
           >
             <img src="assets/images/get-start/paper-plane.svg" alt="send" />
           </a>
           <a
             href="javasrcipt:void(0)"
-            class="get-start__image__btn btn btn--icon bg--orange icon--add"
+            class="get-start__image__btn btn btn--icon btn--orange icon--add"
           >
             <img src="assets/images/get-start/user-plus.svg" alt="user add" />
           </a>
@@ -80,29 +92,29 @@
             <span class="text text--tiny">Top Places</span>
           </a>
         </div>
-        <div class="text-container">
-          <div class="btn">
+        <div class="container">
+          <button class="btn btn--explore">
             <span class="text text--highlight text--small"
               >Explore the wolrd!</span
             >
             <img src="assets/images/get-start/bag.svg" alt="bag image" />
-          </div>
+          </button>
           <h1 class="get-start__title text text--huge">
             Travel <em class="text--highlight"> top destination </em> of the
             world
           </h1>
-          <p class="get-start__text text text--sub text--small">
-            We always make our customer happy by providing as many choices as
-            possible
+          <p class="get-start__text text text--sub text--small text--light">
+            We always make our customer happy by providing <br />
+            as many choices as possible
           </p>
           <div class="btn-group">
-            <div class="btn bg--primary">
-              <span class="text text--tiny">Get Started</span>
-            </div>
-            <div class="btn bg--secondary">
-              <img src="assets/images/watch.svg" alt="watch" />
+            <button class="btn btn--primary">
+              <span class="text--tiny">Get Started</span>
+            </button>
+            <button class="btn btn--secondary btn--watch-demo">
+              <img src="assets/images/icon/watch.svg" alt="watch" />
               <span class="text text--tiny">Watch demo</span>
-            </div>
+            </button>
           </div>
         </div>
       </section>
@@ -174,7 +186,7 @@
 
       <!-- Start Destination-section -->
       <section class="section destination">
-        <div class="text-container">
+        <div class="container">
           <div class="section__title destination__title">
             <h2 class="text text--highlight">TOP DESTINATION</h2>
             <h3 class="text text--large">Explore top destination</h3>
@@ -182,15 +194,15 @@
           <div class="btn-group">
             <a
               href="javasrcipt:void(0)"
-              class="destination__btn btn bg--secondary"
+              class="destination__btn btn btn--secondary"
             >
-              <img src="assets/images/arrow-left.svg" alt="arrow-left" />
+              <img src="assets/images/icon/arrow-left.svg" alt="arrow-left" />
             </a>
             <a
               href="javasrcipt:void(0)"
-              class="destination__btn btn bg--primary"
+              class="destination__btn btn btn--primary"
             >
-              <img src="assets/images/arrow-right.svg" alt="arrow-right" />
+              <img src="assets/images/icon/arrow-right.svg" alt="arrow-right" />
             </a>
           </div>
         </div>
@@ -203,14 +215,14 @@
                   src="./assets/images/destination/destination1.png"
                   alt="destination1"
                 />
-                <div class="text-container">
+                <div class="container">
                   <div class="item__price text--highlight">$550.16</div>
                   <div class="item__description">
                     <h6>Paradise Beach, Bantayan Island</h6>
                     <p class="text text--sub text--tiny">Rome, Italy</p>
                     <div class="item__rate">
                       <span class="text text--orange">4.8</span>
-                      <img src="./assets/images/start.svg" alt="start" />
+                      <img src="./assets/images/icon/start.svg" alt="start" />
                     </div>
                   </div>
                 </div>
@@ -223,14 +235,14 @@
                   src="./assets/images/destination/destination2.png"
                   alt="destination2"
                 />
-                <div class="text-container">
+                <div class="container">
                   <div class="item__price text--highlight">$20.99</div>
                   <div class="item__description">
                     <h6>Ocean with full of Colors</h6>
                     <p class="text text--sub text--tiny">Maldives</p>
                     <div class="item__rate">
                       <span class="text text--orange">4.5</span>
-                      <img src="./assets/images/start.svg" alt="start" />
+                      <img src="./assets/images/icon/start.svg" alt="start" />
                     </div>
                   </div>
                 </div>
@@ -243,14 +255,14 @@
                   src="./assets/images/destination/destination3.png"
                   alt="destination3"
                 />
-                <div class="text-container">
+                <div class="container">
                   <div class="item__price text--highlight">$150.99</div>
                   <div class="item__description">
                     <h6>Mountain View, Above the cloud</h6>
                     <p class="text text--sub text--tiny">United Arab Emeries</p>
                     <div class="item__rate">
                       <span class="text text--orange">5.0</span>
-                      <img src="./assets/images/start.svg" alt="start" />
+                      <img src="./assets/images/icon/start.svg" alt="start" />
                     </div>
                   </div>
                 </div>
@@ -269,52 +281,55 @@
           alt="discounted price"
         />
         <div class="container">
-          <div class="text-container">
-            <div class="section__title travel-point__title">
-              <h2 class="text text--highlight">TRAVEL POINT</h2>
-              <h3 class="text text--large">
-                We helping you find your dream location
-              </h3>
-            </div>
-            <p class="travel-point__text text--small text--sub">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC.
-            </p>
+          <div class="section__title travel-point__title">
+            <h2 class="text text--highlight">TRAVEL POINT</h2>
+            <h3 class="text text--large">
+              We helping you find your dream location
+            </h3>
           </div>
+          <p class="travel-point__text text text--small text--sub text--light">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC.
+          </p>
           <ul class="travel-point__list">
             <li>
               <div class="travel-point__list__item">
                 <h4 class="text text--orange text--big">500+</h4>
-                <p class="text text--small text--sub">Holiday Package</p>
+                <p class="text text--small text--sub text--light">
+                  Holiday Package
+                </p>
               </div>
             </li>
             <li>
               <div class="travel-point__list__item">
                 <h4 class="text text--orange text--big">100</h4>
-                <p class="text text--small text--sub">Luxury Hotel</p>
+                <p class="text text--small text--sub text--light">
+                  Luxury Hotel
+                </p>
               </div>
             </li>
             <li>
               <div class="travel-point__list__item">
                 <h4 class="text text--orange text--big">7</h4>
-                <p class="text text--small text--sub">Premium Airlines</p>
+                <p class="text text--small text--sub text--light">
+                  Premium Airlines
+                </p>
               </div>
             </li>
             <li>
               <div class="travel-point__list__item">
                 <h4 class="text text--orange text--big">2k+</h4>
-                <p class="text text--small text--sub">Happy Customer</p>
+                <p class="text text--small text--sub text--light">
+                  Happy Customer
+                </p>
               </div>
             </li>
           </ul>
         </div>
-        <a
-          class="travel-point__btn btn btn--icon bg--yellow"
-          href="javascript:void(0)"
-        >
+        <a class="travel-point__btn" href="javascript:void(0)">
           <img
             class="icon-coupon"
-            src="assets/images/travel-point/coupon.png"
+            src="assets/images/travel-point/coupon.svg"
             alt="ticket"
           />
         </a>
@@ -329,27 +344,25 @@
           alt="key feature"
         />
         <div class="container">
-          <div class="text-container">
-            <div class="section__title key-feature__title">
-              <h2 class="text text--highlight">KEY FEATURE</h2>
-              <h3 class="text text--large">We offer best services</h3>
-            </div>
-            <p class="text text--small text--sub">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC.
-            </p>
+          <div class="section__title key-feature__title">
+            <h2 class="text text--highlight">KEY FEATURE</h2>
+            <h3 class="text text--large">We offer best services</h3>
           </div>
+          <p class="text text--small text--sub text--light">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC.
+          </p>
           <ul class="key-feature__list">
             <li>
               <div class="key-feature__item">
                 <img
-                  class="key-feature__item__icon bg--orange"
+                  class="key-feature__item__icon btn--orange"
                   src="assets/images/key-feature/location-white.svg"
                   alt=""
                 />
                 <div class="key-feature__item__description">
-                  <h6>We offer best services</h6>
-                  <p class="text text--small text--sub">
+                  <h6 class="text">We offer best services</h6>
+                  <p class="text text--small text--sub text--light">
                     Lorem Ipsum is not simply random text
                   </p>
                 </div>
@@ -358,13 +371,13 @@
             <li>
               <div class="key-feature__item">
                 <img
-                  class="key-feature__item__icon bg--yellow"
+                  class="key-feature__item__icon btn--yellow"
                   src="assets/images/key-feature/calendar.svg"
                   alt=""
                 />
                 <div class="key-feature__item__description">
-                  <h6>Schedule your trip</h6>
-                  <p class="text text--small text--sub">
+                  <h6 class="text">Schedule your trip</h6>
+                  <p class="text text--small text--sub text--light">
                     It has roots in a piece of classical
                   </p>
                 </div>
@@ -373,13 +386,13 @@
             <li>
               <div class="key-feature__item">
                 <img
-                  class="key-feature__item__icon bg--pink"
+                  class="key-feature__item__icon btn--pink"
                   src="assets/images/key-feature/ticket.svg"
                   alt=""
                 />
                 <div class="key-feature__item__description">
-                  <h6>Get discounted coupons</h6>
-                  <p class="text text--small text--sub">
+                  <h6 class="text">Get discounted coupons</h6>
+                  <p class="text text--small text--sub text--light">
                     Lorem Ipsum is not simply random text
                   </p>
                 </div>
@@ -394,14 +407,14 @@
       <section class="section testimonial">
         <img
           class="testimonial__bg"
-          src="assets/images/vector.png"
+          src="assets/images/icon/vector.png"
           alt="background"
         />
         <a
           href="javascript:void(0)"
-          class="btn btn--icon bg--secondary testimonial__btn"
+          class="btn btn--icon btn--secondary testimonial__btn"
         >
-          <img src="assets/images/arrow-left.svg" alt="arrow-left" />
+          <img src="assets/images/icon/arrow-left.svg" alt="arrow-left" />
         </a>
         <div class="container">
           <div class="section__title testimonial__title">
@@ -419,28 +432,43 @@
               / Travel Enthusiast
             </p>
             <div class="testimonial__content__rating">
-              <img src="assets/images/start-yellow.svg" alt="yellow start" />
-              <img src="assets/images/start-yellow.svg" alt="yellow start" />
-              <img src="assets/images/start-yellow.svg" alt="yellow start" />
-              <img src="assets/images/start-yellow.svg" alt="yellow start" />
-              <img src="assets/images/start-yellow.svg" alt="yellow start" />
+              <img
+                src="assets/images/icon/start-yellow.svg"
+                alt="yellow start"
+              />
+              <img
+                src="assets/images/icon/start-yellow.svg"
+                alt="yellow start"
+              />
+              <img
+                src="assets/images/icon/start-yellow.svg"
+                alt="yellow start"
+              />
+              <img
+                src="assets/images/icon/start-yellow.svg"
+                alt="yellow start"
+              />
+              <img
+                src="assets/images/icon/start-yellow.svg"
+                alt="yellow start"
+              />
             </div>
-            <p class="text text--small text--sub">
+            <p class="text text--small text--sub testimonial__description">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC.
             </p>
           </div>
           <ul class="testimonial__content__nav">
-            <li class="btn--icon bg--sub"></li>
-            <li class="btn--icon bg--pink"></li>
-            <li class="btn--icon bg--sub"></li>
+            <li class="btn--icon btn--sub"></li>
+            <li class="btn--icon btn--pink"></li>
+            <li class="btn--icon btn--sub"></li>
           </ul>
         </div>
         <a
           href="javascript:void(0)"
-          class="btn btn--icon bg--primary testimonial__btn"
+          class="btn btn--icon btn--primary testimonial__btn"
         >
-          <img src="assets/images/arrow-right.svg" alt="arrow-right" />
+          <img src="assets/images/icon/arrow-right.svg" alt="arrow-right" />
         </a>
       </section>
       <!-- End Testimonial-section -->
@@ -468,13 +496,9 @@
               src="assets/images/subscribe/letter.svg"
               alt="letter"
             />
+            <input type="email" class="input text" placeholder="Your email" />
             <input
-              type="email"
-              class="input text text--big"
-              placeholder="Your email"
-            />
-            <input
-              class="text text--big btn btn--subscribe bg--primary"
+              class="btn btn--subscribe btn--primary text"
               type="button"
               value="Subscribe"
             />
@@ -482,15 +506,15 @@
         </div>
       </section>
       <!-- End Subscribe-section -->
-    </div>
+    </main>
 
     <footer class="footer">
       <div class="footer__content">
         <div class="footer__logo">
-          <img src="../src/assets/images/logo.svg" alt="Logo" />
+          <img src="../src/assets/images/icon/logo.svg" alt="Logo" />
           <p>Travlog</p>
         </div>
-        <div class="text text--small text--sub">
+        <div class="text text--small text--sub text--light">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
           has roots in a piece of classical Latin literature from 45 BC.
         </div>
@@ -537,7 +561,7 @@
         </div>
       </div>
       <div class="footer__info">
-        <nav class="footer__info__item">
+        <nav class="footer__info__item text">
           Company
           <ul class="footer__info__list">
             <li>
@@ -551,7 +575,7 @@
             </li>
           </ul>
         </nav>
-        <nav class="footer__info__item">
+        <nav class="footer__info__item text">
           Contact
           <ul class="footer__info__list">
             <li>
@@ -570,7 +594,7 @@
             </li>
           </ul>
         </nav>
-        <div class="footer__info__item">
+        <div class="footer__info__item text">
           Meet Us
           <ul class="footer__info__list">
             <li>

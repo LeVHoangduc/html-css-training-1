@@ -9,11 +9,11 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: var(--width-max);
   margin: 0 auto;
-  padding: 20px;
+  padding: 64px 0;
 }
 
 .footer__content {
@@ -40,6 +40,7 @@
 
 .footer__logo > p {
   font-weight: var(--font-weight-bold);
+  line-height: 160%;
 }
 
 /* -------------------
@@ -93,6 +94,7 @@
 }
 
 .footer__info__list {
+  width: 165.33px;
   list-style-type: none;
   display: flex;
   align-items: flex-start;
@@ -106,14 +108,13 @@
   color: var(--sub-color);
   font-size: var(--font-size-small);
   text-decoration: none;
+  font-weight: var(--font-weight-light);
 }
 
-.footer__link:hover {
-  text-decoration: underline;
-  transition: var(--transition-fast);
-}
 
 .footer__info__text {
+  text-decoration: none;
   color: var(--sub-color);
   font-size: var(--font-size-small);
+  font-weight: var(--font-weight-light);
 }

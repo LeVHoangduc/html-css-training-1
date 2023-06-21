@@ -6,16 +6,21 @@
   position: relative;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 100px;
   margin-left: 0;
+  gap: 125px;
+}
+
+.travel-point__img {
+  width: 871px;
+  height: 697px;
 }
 
 .travel-point .container {
   flex-direction: column;
-  align-items: center;
-  max-width: 600px;
+  align-items: stretch;
   gap: 70px;
   padding: 0 30px;
+  width: 495px;
 }
 
 /* ----------------
@@ -32,7 +37,7 @@
 
 .travel-point__list {
   display: flex;
-  gap: 50px;
+  gap: 32px;
   flex-wrap: wrap;
 }
 
@@ -45,30 +50,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  text-align: center;
+  gap: 16px;
   border: 1px solid rgba(25, 24, 37, 0.1);
   border-radius: 25px;
-  padding: 30px;
+  padding: 16px;
   background-color: var(--background-color);
   transition: var(--transition-fast);
   cursor: default;
-  width: 220px;
+  width: 200px;
+  height: 150px;
 }
 
 .travel-point__list__item:hover {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 .travel-point__btn {
   position: absolute;
-  top: 35%;
-  right: 10px;
-}
-
-.travel-point__btn:hover {
-  cursor: pointer;
-  scale: 1.1;
-}
-
-.icon-coupon {
-  width: 50px;
+  z-index: -1;
+  cursor: default;
+  top: 32%;
+  right: -8%;
 }
