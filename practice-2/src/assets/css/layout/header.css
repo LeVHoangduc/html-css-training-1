@@ -1,0 +1,127 @@
+/* mobile first */
+.header__logo {
+    grid-area: logo;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.navbar {
+    grid-area: navbar;
+    position: relative;
+    align-items: center;
+}
+
+.navbar__menu-btn {
+    grid-area: menu-btn;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+}
+
+.navbar__menu-btn:hover {
+    box-shadow: none !important;
+}
+
+.navbar__menu {
+    display: none;
+
+    transition: opacity 1s ease;
+    row-gap: 5px;
+}
+
+.navbar__menu__auth-button {
+    margin-bottom: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+.navbar__menu__link {
+    white-space: nowrap;
+}
+
+.header__auth-buttons {
+    display: none;
+    grid-area: auth-buttons;
+    gap: 10px;
+}
+
+.header__auth-button {
+    padding: 16px 32px;
+}
+
+.header {
+    display: grid;
+    grid-template-areas: "logo navbar";
+    width: 100%;
+    grid-template-columns: auto min-content;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+
+/* special design for mobile*/
+@media screen and (max-width: 767px) {
+    .navbar:hover .navbar__menu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        right: 0;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .header__auth-buttons {
+        display: flex !important;
+    }
+
+    .header {
+        grid-template-areas: "navbar logo auth-buttons";
+    }
+
+    .navbar__menu__auth-buttons {
+        display: none;
+    }
+}
+
+/* special design for tablet  */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .navbar:hover .navbar__menu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        left: 0;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+    .navbar {
+        display: block;
+    }
+
+    .header__auth-buttons {
+        display: flex !important;
+        gap: 10px;
+    }
+
+    .navbar__menu-btn {
+        display: none !important;
+    }
+
+    .navbar__menu {
+        position: static;
+        display: flex;
+        width: 428px;
+        justify-content: space-between;
+    }
+
+    .navbar__menu__auth-buttons {
+        display: none;
+    }
+
+    .header {
+        grid-template-areas: "logo navbar auth-buttons";
+    }
+}

@@ -4,19 +4,17 @@
     align-items: center;
     text-align: center;
     gap: 10px;
-    padding: 15px 30px;
     border-radius: 25px;
     background-color: var(--background-color);
     text-decoration: none;
     cursor: pointer;
     transition: var(--transition-fast);
     box-shadow: 0px 77px 31px rgba(0, 0, 0, 0.01);
-    border: 1px solid #eeeeee;
 }
 
 .btn:hover {
     scale: 1.1;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn--icon {
@@ -33,12 +31,10 @@
 
 .btn--primary {
     background-color: var(--primary-color);
-    color: var(--background-color);
 }
 
 .btn--secondary {
     background-color: var(--background-color);
-    color: var(--primary-color);
 }
 
 .btn--pink {

@@ -11,13 +11,72 @@
             href="./assets/images/icon/logo.svg"
             type="image/png"
         />
-        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="stylesheet" href="./assets/css/index.css" />
     </head>
     <body>
         <header class="header">
-            <div class="logo">
-                <img src="../src/assets/images/icon/logo.svg" alt="Logo" />
+            <a class="logo header__logo" href="#">
+                <img src="./assets/images/icon/logo.svg" alt="Logo" />
                 <p>Travlog</p>
+            </a>
+            <nav class="navbar">
+                <button class="btn navbar__menu-btn">
+                    <img src="./assets/images/icon/menu.svg" alt="menu" />
+                </button>
+                <ul class="navbar__menu">
+                    <li>
+                        <a
+                            class="navbar__menu__link text text--tiny text--sub"
+                            href="#"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="navbar__menu__link text text--tiny text--sub"
+                            href="javascript:void(0)"
+                            >Discover</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="navbar__menu__link text text--tiny text--sub"
+                            href="javascript:void(0)"
+                            >Sepcial Deals</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="navbar__menu__link text text--tiny text--sub"
+                            href="javascript:void(0)"
+                            >Contact</a
+                        >
+                    </li>
+                    <li class="navbar__menu__auth-buttons">
+                        <a
+                            href="javascript:void(0)"
+                            class="navbar__menu__auth-button btn btn--secondary text text--tiny"
+                            >Log In</a
+                        >
+                        <a
+                            href="javascript:void(0)"
+                            class="navbar__menu__auth-button btn btn--primary text text--tiny text--white"
+                            >Sign Up</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__auth-buttons">
+                <a
+                    href="javascript:void(0)"
+                    class="header__auth-button btn btn--secondary text text--tiny"
+                    >Log In</a
+                >
+                <a
+                    href="javascript:void(0)"
+                    class="header__auth-button btn btn--primary text text--tiny text--white"
+                    >Sign Up</a
+                >
             </div>
         </header>
         <main class="main"></main>
