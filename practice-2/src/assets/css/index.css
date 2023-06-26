@@ -1,13 +1,5 @@
-/* @import url(./sass/utils/*); */
-
-/* @import url(./sass/vendors/*); */
-
 @import url(./base/index.css);
 
 @import url(./layout/index.css);
 
 @import url(./components/index.css);
-
-/* @import url(./sass/pages/*); */
-
-/* @import url(./sass/themes/*); */
