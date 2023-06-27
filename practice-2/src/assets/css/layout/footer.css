@@ -13,11 +13,6 @@
     row-gap: 32px;
 }
 
-.footer__content > p {
-    font-weight: 450;
-    line-height: 160%;
-}
-
 .footer__socials__list {
     display: flex;
     gap: 32px;
