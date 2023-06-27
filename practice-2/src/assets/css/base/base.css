@@ -29,6 +29,10 @@ html {
     --font-weight-bold: 900;
     --transition-fast: 0.25s ease;
     --transition-slow: 0.5s ease;
+    --boder-light: 1px solid #eeeeee;
+    --box-shadow-light: 00px 77px 31px rgba(0, 0, 0, 0.01);
+    --box-shadow-medium: 0 1px 3px rgba(31, 35, 40, 0.12),
+        0 8px 24px rgba(66, 74, 83, 0.12);
 }
 
 body {
@@ -39,11 +43,15 @@ body {
     font-weight: var(--font-weight-medium);
     line-height: 25px;
     height: auto;
-    padding: 40px 0;
     margin: 0 auto;
     transition: 0.25s ease;
     overflow-y: scroll;
     overflow-x: hidden;
+    display: flex;
+    padding: 0px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 h1,
