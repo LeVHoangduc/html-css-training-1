@@ -37,6 +37,7 @@
 .text--sub {
     font-family: "Inter", Arial, sans-serif;
     color: var(--sub-color);
+    text-decoration: none;
 }
 
 .text--small {
@@ -57,4 +58,9 @@
 
 .text--light {
     font-weight: var(--font-weight-light);
+    line-height: 160%;
+}
+
+.text--bold {
+    font-weight: var(--font-weight-bold);
 }
