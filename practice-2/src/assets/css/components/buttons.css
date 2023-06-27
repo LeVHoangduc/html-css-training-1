@@ -8,18 +8,18 @@
     background-color: var(--background-color);
     text-decoration: none;
     cursor: pointer;
+    border: var(--border-light);
     transition: var(--transition-fast);
     box-shadow: var(--box-shadow-light);
 }
 
 .btn:hover {
-    scale: 1.1;
+    scale: 1.05;
     box-shadow: var(--box-shadow-medium);
 }
 
 .btn--icon {
-    padding: 15px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .btn-group {
