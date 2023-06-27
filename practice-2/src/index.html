@@ -5,10 +5,222 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Travlog</title>
+
+        <link
+            rel="icon"
+            href="./assets/images/icon/logo.svg"
+            type="image/png"
+        />
+        <link rel="stylesheet" href="./assets/css/index.css" />
     </head>
     <body>
-        <header class="header"></header>
+        <header class="header">
+            <a class="logo header__logo" href="#">
+                <img src="./assets/images/icon/logo.svg" alt="Logo" />
+                <p>Travlog</p>
+            </a>
+            <nav class="navbar">
+                <button class="navbar__menu-btn">
+                    <img src="./assets/images/icon/menu.svg" alt="menu" />
+                </button>
+                <ul class="navbar__menu">
+                    <li>
+                        <a
+                            class="navbar__menu__link text text--tiny text--sub"
+                            href="#"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="navbar__menu__link text text--tiny text--sub"
+                            href="javascript:void(0)"
+                            >Discover</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="navbar__menu__link text text--tiny text--sub"
+                            href="javascript:void(0)"
+                            >Sepcial Deals</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="navbar__menu__link text text--tiny text--sub"
+                            href="javascript:void(0)"
+                            >Contact</a
+                        >
+                    </li>
+                    <li class="navbar__menu__auth-buttons">
+                        <hr />
+                        <a
+                            href="javascript:void(0)"
+                            class="navbar__menu__auth-button btn btn--secondary text text--tiny"
+                            >Log In</a
+                        >
+                        <a
+                            href="javascript:void(0)"
+                            class="navbar__menu__auth-button btn btn--primary text text--tiny text--white"
+                            >Sign Up</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__auth-buttons">
+                <a
+                    href="javascript:void(0)"
+                    class="header__auth-button btn btn--secondary text text--tiny"
+                    >Log In</a
+                >
+                <a
+                    href="javascript:void(0)"
+                    class="header__auth-button btn btn--primary text text--tiny text--white"
+                    >Sign Up</a
+                >
+            </div>
+        </header>
         <main class="main"></main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="logo footer__logo">
+                    <img src="../src/assets/images/icon/logo.svg" alt="Logo" />
+                    <p>Travlog</p>
+                </div>
+                <p class="text text--small text--sub text--light">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC.
+                </p>
+                <ul class="footer__socials__list">
+                    <li>
+                        <a
+                            class="footer__social-icon btn"
+                            href="https://www.facebook.com"
+                            target="_blank"
+                        >
+                            <img
+                                src="../src/assets/images/footer/fb.svg"
+                                alt="socials"
+                            />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="footer__social-icon btn"
+                            href="https://twitter.com"
+                            target="_blank"
+                        >
+                            <img
+                                src="../src/assets/images/footer/twitter.svg"
+                                alt="socials"
+                            />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="footer__social-icon btn"
+                            href="https://www.instagram.com"
+                            target="_blank"
+                        >
+                            <img
+                                src="../src/assets/images/footer/insta.svg"
+                                alt="socials"
+                            />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <nav class="footer__info__item text">
+                    Company
+                    <ul class="footer__info__list">
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="javascript:void(0)"
+                                >About</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="javascript:void(0)"
+                                >Career</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="javascript:void(0)"
+                                >Mobile</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="footer__info__item text">
+                    Contact
+                    <ul class="footer__info__list">
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="javascript:void(0)"
+                                >Why Travlog?</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="javascript:void(0)"
+                                >Partner with us</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="javascript:void(0)"
+                                >FAQ's</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="javascript:void(0)"
+                                >Blog</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__info__item text">
+                    Meet Us
+                    <ul class="footer__info__list">
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="tel:+0092123456789"
+                            >
+                                +00 92 1234 56789
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="text text--small text--sub text--light"
+                                href="mailto:example@example.com"
+                            >
+                                info@travlog.com
+                            </a>
+                        </li>
+                        <li>
+                            <address
+                                class="text text--small text--sub text--light"
+                            >
+                                205. R Street, New York <br />
+                                BD2item
+                            </address>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
