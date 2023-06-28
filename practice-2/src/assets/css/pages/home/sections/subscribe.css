@@ -1,0 +1,63 @@
+.subscribe {
+    position: relative;
+}
+
+.subscribe .graphic-element {
+    position: absolute;
+    display: none;
+}
+
+.subscribe .container {
+    background-color: var(--background-yellow-color);
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 64px 32px;
+    border-radius: 32px;
+}
+
+.subscribe .section__title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.subscribe__form {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    align-items: stretch;
+    gap: 32px;
+}
+
+.subscribe__form .input {
+    width: 100%;
+    border: var(--border-light);
+    padding-left: 72px;
+}
+
+.icon-letter {
+    position: absolute;
+    left: 32px;
+    top: 28px;
+}
+
+.subscribe .btn {
+    padding: 24px 64px;
+    border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .subscribe__form {
+        grid-template-columns: auto min-content;
+        grid-template-rows: auto;
+    }
+
+    .subscribe .graphic-element {
+        display: block;
+        left: -5%;
+        top: 0;
+    }
+}

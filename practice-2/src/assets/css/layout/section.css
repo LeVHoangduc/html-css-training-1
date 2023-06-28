@@ -1,11 +1,22 @@
 .section {
     position: relative;
+    width: 100%;
     padding: 32px 0;
 }
 
 .section__title {
     gap: 30px;
     line-height: 120%;
+}
+
+.section__title .text--highlight {
+    letter-spacing: var(--letter-spacing-medium);
+}
+
+@media screen and (min-width: 768px) {
+    .section__title .text--highlight {
+        letter-spacing: var(--letter-spacing-large);
+    }
 }
 
 .section__title > h1 {

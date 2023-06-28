@@ -15,6 +15,7 @@ html {
     --secondary-color: #f85e9f;
     --thirdly-color: #ff5722;
     --fourthly-color: #facd49;
+    --background-yellow-color: rgba(250, 205, 73, 0.08);
     --font-color: #191825;
     --sub-color: #19182580;
     --highlight-color: ##f85e9f;
@@ -31,6 +32,9 @@ html {
     --font-weight-light: 400;
     --font-weight-medium: 700;
     --font-weight-bold: 900;
+    --letter-spacing-medium: 3.2px;
+    --letter-spacing-large: 4.6px;
+
     --transition-fast: 0.25s ease;
     --transition-slow: 0.5s ease;
     --border-light: 1px solid #eeeeee;
