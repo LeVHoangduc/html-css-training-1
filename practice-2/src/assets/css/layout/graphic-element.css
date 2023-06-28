@@ -3,5 +3,12 @@
 }
 
 .graphic-element--1 {
-    right: 0;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .graphic-element--1 {
+        display: block;
+        right: 0;
+    }
 }
