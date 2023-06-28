@@ -20,14 +20,14 @@ html {
     --highlight-color: ##f85e9f;
     --font-size-tiny: 14px;
     --font-size-small: 18px;
-    --font-size-normal: 23px;
-    --font-size-28: 28px;
     --font-size-big: 32px;
     --font-size-large: 35px;
     --font-size-huge: 40px;
+    --font-size-max: 69px;
+    --font-size-normal: 23px;
+    --font-size-28: 28px;
     --font-size-44: 44px;
     --font-size-56: 56px;
-    --font-size-max: 69px;
     --font-weight-light: 400;
     --font-weight-medium: 700;
     --font-weight-bold: 900;
