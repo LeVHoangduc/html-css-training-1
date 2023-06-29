@@ -46,3 +46,13 @@
     scale: 1.05;
     transition: var(--transition-slow);
 }
+
+.card__icon {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 32px;
+}
