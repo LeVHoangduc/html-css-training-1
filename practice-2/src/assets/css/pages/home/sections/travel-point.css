@@ -1,0 +1,72 @@
+.travel-point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 32px;
+}
+
+.travel-point__img {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.travel-point .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.travel-point .section__title {
+    gap: 32px;
+}
+
+.travel-point__list {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 16px;
+}
+
+.travel-point .card {
+    max-width: 400px;
+    margin: 0 auto;
+    justify-self: center;
+    height: 100%;
+}
+
+.travel-point__graphic-elemnt {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .travel-point__list {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .travel-point {
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        overflow-x: visible;
+        gap: 0;
+    }
+
+    .travel-point .container {
+        flex: none;
+        text-align: start;
+        width: 456px;
+    }
+
+    .travel-point__graphic-elemnt {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        right: -150px;
+        bottom: 180px;
+    }
+}
