@@ -7,12 +7,6 @@
     gap: 32px;
 }
 
-@media screen and (min-width: 768px) {
-    .section {
-        gap: 64px;
-    }
-}
-
 .section__title {
     display: flex;
     flex-direction: column;
@@ -52,6 +46,7 @@
 
 @media screen and (min-width: 768px) {
     .section {
+        gap: 64px;
         padding: 64px 0;
     }
 }

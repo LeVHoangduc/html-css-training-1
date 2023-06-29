@@ -1,0 +1,67 @@
+.testimonial {
+    display: grid;
+    grid-template-columns: 64px auto 64px;
+    grid-template-rows: auto 64px;
+    grid-template-areas:
+        "testimonial testimonial testimonial"
+        "btn-left . btn-right";
+}
+
+.testimonial .container {
+    grid-area: testimonial;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.testimonial__rating {
+    display: flex;
+    gap: 16px;
+}
+
+.testimonial__nav {
+    display: flex;
+    gap: 24px;
+}
+
+.testimonial__nav__btn {
+    width: 24px;
+    height: 24px;
+}
+
+.testimonial__btn--left {
+    grid-area: btn-left;
+}
+
+.testimonial__btn--right {
+    grid-area: btn-right;
+}
+
+.testimonial__bg {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+    z-index: -1;
+    opacity: 0.2;
+    width: 100vw;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonial {
+        grid-template-rows: auto 100px auto;
+        grid-template-columns: 100px auto 100px;
+        grid-template-areas:
+            ". testimonial ."
+            "btn-left testimonial btn-right"
+            ". testimonial .";
+    }
+
+    .testimonial__bg {
+        display: block;
+    }
+}
