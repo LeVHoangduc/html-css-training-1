@@ -3,14 +3,13 @@
     z-index: -1;
 }
 
-.graphic-element--1 {
+.graphic-element--bottom {
     display: none;
 }
 
 @media screen and (min-width: 768px) {
-    .graphic-element--1 {
+    .graphic-element--bottom {
         display: block;
         right: 0;
-        bottom: 400px;
     }
 }
