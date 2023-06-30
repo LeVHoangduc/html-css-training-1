@@ -14,7 +14,7 @@
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 16px;
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -43,7 +43,11 @@
     }
 
     .service__list {
-        overflow-x: visible;
+        overflow-x: scroll;
+    }
+
+    .service__list::-webkit-scrollbar {
+        display: none;
     }
 
     .service .card {
