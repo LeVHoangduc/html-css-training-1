@@ -49,6 +49,7 @@ html {
 }
 
 body {
+    position: relative;
     background-color: var(--background-color);
     font-family: "Circular Std", Arial, sans-serif;
     color: var(--font-color);

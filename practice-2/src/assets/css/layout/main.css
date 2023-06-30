@@ -1,5 +1,8 @@
 .main {
-    position: relative;
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: visible;
 }

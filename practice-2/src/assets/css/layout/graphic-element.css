@@ -1,5 +1,6 @@
 .graphic-element {
     position: absolute;
+    z-index: -1;
 }
 
 .graphic-element--bottom {
