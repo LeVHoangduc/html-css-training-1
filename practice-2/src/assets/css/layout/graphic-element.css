@@ -1,0 +1,15 @@
+.graphic-element {
+    position: absolute;
+    z-index: -1;
+}
+
+.graphic-element--bottom {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .graphic-element--bottom {
+        display: block;
+        right: 0;
+    }
+}

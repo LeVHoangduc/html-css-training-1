@@ -7,6 +7,50 @@
     src: url("../../fonts/Inter/Inter-Medium.ttf") format("truetype");
 }
 
+h1 {
+    font-size: var(--font-size-huge);
+}
+
+h3 {
+    font-size: var(--font-size-big);
+}
+
+h4 {
+    font-size: var(--font-size-large);
+}
+
+h5 {
+    font-size: var(--font-size-normal);
+}
+
+h6 {
+    font-size: var(--font-size-normal);
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: var(--font-size-56);
+    }
+
+    h3 {
+        font-size: var(--font-size-huge);
+    }
+
+    h5 {
+        font-size: var(--font-size-28);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: var(--font-size-max);
+    }
+
+    h3 {
+        font-size: var(--font-size-44);
+    }
+}
+
 .text {
     font-family: "Circular Std", Arial, sans-serif;
     color: var(--font-color);
