@@ -1,0 +1,130 @@
+.get-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+}
+
+.get-start__image-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 12%;
+    max-width: 772px;
+    background-image: url(../../../../images/get-start/earth.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    padding: 0 10%;
+}
+
+.get-start__image-destinations {
+    position: relative;
+    transform: translate(0%, 12%);
+    width: 100%;
+    max-width: 575px;
+}
+
+.get-start__image__btn {
+    position: absolute;
+    font-size: 8px;
+    padding: 8px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.btn--send {
+    top: 50%;
+    left: 5%;
+}
+
+.btn--add {
+    right: 35%;
+    bottom: -10%;
+}
+
+.btn--location {
+    padding: 8 16px;
+    bottom: 10%;
+    right: 5%;
+    box-shadow: var(--box-shadow-light);
+    border: none;
+}
+
+.btn--explore {
+    align-self: center;
+    max-width: 250px;
+    padding: 16px 32px;
+}
+
+.get-start .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 32px;
+}
+
+.get-start .section__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.get-start .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+}
+
+.get-start__btn {
+    padding: 24px 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .get-start .container {
+        align-items: center;
+    }
+
+    .get-start__image__btn {
+        padding: 16px;
+    }
+
+    .get-start .btn-group {
+        flex-direction: row;
+    }
+
+    .get-start__btn {
+        padding: 16px 32px;
+    }
+
+    .get-start .section__title {
+        max-width: 620px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .get-start {
+        flex-direction: row-reverse;
+    }
+
+    .btn--explore {
+        align-self: flex-start;
+    }
+
+    .get-start .section__title {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .get-start .btn-group {
+        align-self: flex-start;
+    }
+}
