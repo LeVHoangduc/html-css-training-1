@@ -50,3 +50,9 @@
         padding: 64px 0;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .section {
+        grid-column: 2;
+    }
+}
