@@ -91,4 +91,8 @@
         justify-content: space-between;
         text-align: start;
     }
+
+    .destination .section__title {
+        text-align: start;
+    }
 }
