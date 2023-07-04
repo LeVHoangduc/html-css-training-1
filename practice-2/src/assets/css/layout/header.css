@@ -147,4 +147,8 @@
         grid-template-areas: "logo navbar auth-buttons";
         margin: 0 128px;
     }
+
+    .navbar__menu__link:hover {
+        text-decoration: underline;
+    }
 }
