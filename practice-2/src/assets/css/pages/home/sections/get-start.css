@@ -108,6 +108,11 @@
     .get-start .section__title {
         max-width: 620px;
     }
+
+    .icon {
+        width: max-content;
+        height: max-content;
+    }
 }
 
 @media screen and (min-width: 1200px) {
