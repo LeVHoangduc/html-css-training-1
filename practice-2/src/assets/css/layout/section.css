@@ -4,6 +4,13 @@
     max-width: 1184px;
     padding: 32px 0;
     margin: 0 auto;
+    gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+        gap: 64px;
+    }
 }
 
 .section__title {

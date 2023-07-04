@@ -11,5 +11,6 @@
     .graphic-element--bottom {
         display: block;
         right: 0;
+        bottom: 400px;
     }
 }
