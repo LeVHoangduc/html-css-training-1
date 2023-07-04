@@ -5,3 +5,11 @@
     width: 100%;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 1200px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1184px 1fr;
+        grid-auto-rows: auto;
+    }
+}
