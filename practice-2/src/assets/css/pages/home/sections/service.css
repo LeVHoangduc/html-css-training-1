@@ -31,13 +31,16 @@
 
 @media screen and (min-width: 1200px) {
     .service {
-        align-self: flex-end;
+        flex: none;
         flex-direction: row;
         overflow-x: visible;
+        max-width: none;
+        grid-column: 2 / span 2;
     }
 
     .service .section__title {
-        min-width: 444px;
+        flex: none;
+        width: 444px;
         text-align: left;
         justify-content: center;
     }
