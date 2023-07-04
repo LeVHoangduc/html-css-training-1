@@ -120,7 +120,6 @@
     }
 
     .get-start .section__title {
-        /* align-self: stretch; */
         align-items: flex-start;
         text-align: left;
     }
