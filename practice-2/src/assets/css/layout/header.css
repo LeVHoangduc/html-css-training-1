@@ -55,6 +55,7 @@
     align-self: stretch;
     grid-template-columns: auto min-content;
     justify-content: space-between;
+    width: auto;
     padding: 32px 0;
     z-index: 99;
 }
@@ -146,7 +147,7 @@
     .header {
         grid-template-areas: "logo navbar auth-buttons";
         margin: 0 auto;
-        width: 1184px;
+        max-width: 1184px;
     }
 
     .navbar__menu__link:hover {
