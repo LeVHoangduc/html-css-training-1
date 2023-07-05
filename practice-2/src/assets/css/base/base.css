@@ -58,16 +58,13 @@ body {
     font-size: var(--font-size-normal);
     font-weight: var(--font-weight-medium);
     line-height: 25px;
+    width: 100%;
     height: auto;
+    padding: 0px 16px;
     margin: 0 auto;
     transition: 0.25s ease;
     overflow-y: scroll;
     overflow-x: hidden;
-    display: flex;
-    padding: 0px 16px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 h1,

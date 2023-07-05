@@ -13,9 +13,21 @@
     max-width: 650px;
 }
 
+.sponsor__list > li {
+    display: flex;
+    justify-content: center;
+}
+
 .sponsor__list > li > img {
+    width: 60%;
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .sponsor__list > li > img {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
