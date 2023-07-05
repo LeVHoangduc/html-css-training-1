@@ -50,6 +50,7 @@
 }
 
 .header {
+    position: relative;
     display: grid;
     grid-template-areas: "logo navbar";
     align-self: stretch;
