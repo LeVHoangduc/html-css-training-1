@@ -8,48 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-:root {
-    --width-max: 1440px;
-    --background-color: #fff;
-    --primary-color: #5d50c6;
-    --secondary-color: #f85e9f;
-    --thirdly-color: #ff5722;
-    --fourthly-color: #facd49;
-    --background-yellow-color: rgba(250, 205, 73, 0.08);
-    --font-color: #191825;
-    --sub-color: #19182580;
-    --highlight-color: ##f85e9f;
-
-    --font-size-tiny: 14px;
-    --font-size-small: 18px;
-    --font-size-big: 32px;
-    --font-size-large: 35px;
-    --font-size-huge: 40px;
-    --font-size-max: 69px;
-    --font-size-normal: 23px;
-    --font-size-28: 28px;
-    --font-size-44: 44px;
-    --font-size-56: 56px;
-    --font-weight-light: 400;
-    --font-weight-medium: 700;
-    --font-weight-bold: 900;
-    --letter-spacing-medium: 3.2px;
-    --letter-spacing-large: 4.6px;
-
-    --transition-fast: 0.25s ease;
-    --transition-slow: 0.5s ease;
-
-    --border-light: 1px solid #eeeeee;
-    --box-shadow-light: 0px 0px 0px 0px rgba(0, 0, 0, 0.07),
-        0px 34px 75px 0px rgba(0, 0, 0, 0.07),
-        0px 137px 137px 0px rgba(0, 0, 0, 0.06),
-        0px 308px 185px 0px rgba(0, 0, 0, 0.04),
-        0px 548px 219px 0px rgba(0, 0, 0, 0.01),
-        0px 856px 240px 0px rgba(0, 0, 0, 0);
-    --box-shadow-medium: 0 1px 3px rgba(31, 35, 40, 0.12),
-        0 8px 24px rgba(66, 74, 83, 0.12);
-}
-
 body {
     position: relative;
     background-color: var(--background-color);
