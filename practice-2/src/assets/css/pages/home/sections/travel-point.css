@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     gap: 64px;
-    padding: 64px 32px;
 }
 
 .travel-point__img {
@@ -40,6 +39,9 @@
 }
 
 @media screen and (min-width: 768px) {
+    .travel-point {
+        padding: 64px 32px;
+    }
     .travel-point__list {
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 1fr;
@@ -49,11 +51,12 @@
 
 @media screen and (min-width: 1200px) {
     .travel-point {
+        grid-column: 1 / span 2;
         flex-direction: row;
         justify-content: end;
         align-items: center;
-        overflow-x: visible;
         gap: 0;
+        padding: 64px 0;
     }
 
     .travel-point .container {
@@ -66,7 +69,7 @@
         display: block;
         position: absolute;
         z-index: -1;
-        right: -150px;
-        bottom: 180px;
+        right: -200px;
+        bottom: 200px;
     }
 }

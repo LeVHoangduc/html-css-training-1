@@ -145,7 +145,8 @@
 
     .header {
         grid-template-areas: "logo navbar auth-buttons";
-        margin: 0 128px;
+        margin: 0 auto;
+        width: 1184px;
     }
 
     .navbar__menu__link:hover {

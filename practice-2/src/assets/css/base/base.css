@@ -19,6 +19,7 @@ html {
     --font-color: #191825;
     --sub-color: #19182580;
     --highlight-color: ##f85e9f;
+
     --font-size-tiny: 14px;
     --font-size-small: 18px;
     --font-size-big: 32px;
@@ -37,6 +38,7 @@ html {
 
     --transition-fast: 0.25s ease;
     --transition-slow: 0.5s ease;
+
     --border-light: 1px solid #eeeeee;
     --box-shadow-light: 0px 0px 0px 0px rgba(0, 0, 0, 0.07),
         0px 34px 75px 0px rgba(0, 0, 0, 0.07),
