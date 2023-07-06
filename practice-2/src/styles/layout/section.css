@@ -13,6 +13,10 @@
     line-height: 120%;
 }
 
+.section__title > h2 {
+    text-transform: uppercase;
+}
+
 .section__title .text--highlight {
     letter-spacing: var(--letter-spacing-medium);
 }
