@@ -13,7 +13,7 @@
 }
 
 .btn:hover {
-    box-shadow: var(--box-shadow-medium);
+    box-shadow: var(--box-shadow-big);
 }
 
 .btn--circle {
