@@ -23,17 +23,17 @@ html-css-training
         |-- assets
             |-- fonts
             |-- images
-            |-- css
-                |--abstracts
-                |--base
-                |--components
-                |--layout
-                |--pages
-                    |--home
-                        |--sections
-                |--themes
-                |--vendors
-                |--index.css
+        |-- styles
+            |--abstracts
+            |--base
+            |--components
+            |--layout
+            |--pages
+                |--home
+                    |--sections
+            |--themes
+            |--vendors
+            |--index.css
         |-- index.html
     |-- package-lock.json
     |-- package.json

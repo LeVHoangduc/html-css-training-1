@@ -6,7 +6,7 @@
     row-gap: 32px;
 }
 
-.get-start__image-container {
+.get-start__img-container {
     display: flex;
     position: relative;
     align-items: center;
@@ -14,14 +14,14 @@
     width: 100%;
     margin-bottom: 12%;
     max-width: 772px;
-    background-image: url(../../../../images/get-start/earth.png);
+    background-image: url(../../../../assets/images/get-start/earth.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: contain;
     padding: 0 10%;
 }
 
-.get-start__image-destinations {
+.get-start__img--destinations {
     position: relative;
     transform: translate(0%, 12%);
     width: 100%;

@@ -1,5 +1,4 @@
 .section {
-    position: relative;
     width: 100%;
     padding: 32px 0;
     margin: 0 auto;
@@ -11,6 +10,10 @@
     flex-direction: column;
     gap: 16px;
     line-height: 120%;
+}
+
+.section__title > h2 {
+    text-transform: uppercase;
 }
 
 .section__title .text--highlight {
