@@ -3,7 +3,6 @@
 }
 
 .subscribe .graphic-element {
-    position: absolute;
     display: none;
 }
 
@@ -56,6 +55,7 @@
     }
 
     .subscribe .graphic-element {
+        position: absolute;
         display: block;
         left: -5%;
         top: 0;
